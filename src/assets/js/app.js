@@ -1,5 +1,5 @@
-import "./scripts/adaptive.js"
 import "./vendor/webp.js"
-import "./vendor/scroll.js"
 import "./vendor/parallax.js"
+import "./vendor/scroll.js"
 import "./vendor/gsap.js"
+import "./scripts/adaptive.js"

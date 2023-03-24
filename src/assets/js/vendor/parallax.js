@@ -12,4 +12,3 @@ if (window.innerWidth > 1024) {
     })
     console.log('edpockdp')
 }
-
