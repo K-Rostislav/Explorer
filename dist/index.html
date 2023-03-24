@@ -48,7 +48,10 @@
 </header>   
         <main class="main">
             <div class="articles">
-                <picture><source srcset="assets/img/mountains.webp" type="image/webp"><img id="bg" src="assets/img/mountains.jpg" alt=""></picture>
+                <picture>
+                    <source srcset="assets/img/mountains-mobile.webp" media="(max-width: 768px)">
+                    <img id="bg" src="assets/img/mountains.jpg" alt="">
+                </picture>
                 <h1 id="title">Webflow blog template</h1>
                 <div class="articles__block inner">
                     <article class="article">
