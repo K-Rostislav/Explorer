@@ -1,0 +1,48 @@
+@import "vendor/_vars";
+@import "vendor/reset";
+@import "vendor/fonts";
+@import "vendor/options";
+@import "vendor/mixins";
+
+.body {
+    font-size: rem(18);
+    position: relative;
+    font-family: 'Montserrat';
+    @media (min-width: em(1024)) {
+        overflow: hidden;
+    }
+}
+
+.page {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+#title {
+    position: absolute;
+    top: rem(-10000);
+    left: rem(-10000);
+    display: flex;
+}
+
+button, input {
+    font-family: 'Montserrat';
+}
+
+
+/* Common styles */
+@import "vendor/common-styles";
+
+/* Blocks */
+@import "blocks/header";
+@import "blocks/articles";
+@import "blocks/stories";
+@import "blocks/footer";
